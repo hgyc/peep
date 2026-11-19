@@ -125,11 +125,13 @@
   <ItemGroup>
     <ClInclude Include="src\base\handle.hpp" />
     <ClInclude Include="src\base\win.hpp" />
+    <ClInclude Include="src\mem\memory.hpp" />
     <ClInclude Include="src\proc\process.hpp" />
     <ClInclude Include="src\util\util.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\mem\memory.cpp" />
     <ClCompile Include="src\proc\process.cpp" />
     <ClCompile Include="src\util\util.cpp" />
   </ItemGroup>
